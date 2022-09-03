@@ -110,6 +110,7 @@ header h1 {
 
 .shut-down-all {
   margin: 1rem 0;
+  cursor: pointer;
 }
 
 .shut-down-all h3 {
