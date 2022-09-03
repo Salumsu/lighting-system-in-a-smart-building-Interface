@@ -9,6 +9,7 @@
 
 :root {
   --main-color: blueviolet;
+  --background-color: rgb(18, 1, 61);
 }
 
 .App {
@@ -17,11 +18,13 @@
   left: 0;
   width: 100vw;
   min-height: 100vh;
+  background-color: var(--background-color);
 }
 
 header {
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 header h1 {

@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Smart Building</h1>
+        <h1>PHILCST</h1>
+        <h3>Lighting Control System</h3>
       </header>
       <Rooms />
     </div>
