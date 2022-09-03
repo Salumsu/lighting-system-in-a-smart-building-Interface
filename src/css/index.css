@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+:root {
+  --main-color: blueviolet;
+}
+
+.App {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: calc(1rem + 4vw);
+}
+
+.rooms {
+  width: 80vw;
+  max-width: 900px;
+  min-width: 250px;
+  margin: 1rem auto;
+  display: grid;
+  gap: 2vw;
+  --item-width: calc(clamp(1rem, 0.8rem + 3vw, 1.5rem) * 5);
+  grid-template-columns: repeat(auto-fill, minmax(var(--item-width), 1fr));
+}
+
+.room-logo {
+  --size: clamp(1rem, 0.8rem + 3vw, 1.5rem);
+  width: 100%;
+  height: calc(var(--size) * 5);
+  border-radius: calc(var(--size) * 0.2);
+  background-color: var(--main-color);
+  font-size: var(--size);
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.room-logo:hover {
+  opacity: 1;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appliances {
+  --size: clamp(1rem, 0.8rem + 3vw, 1.5rem);
+  width: 80vw;
+  max-width: 800px;
+  min-width: 200px;
+}
+
+.appliances h2 {
+  text-align: center;
+}
+
+.appliance-list {
+  width: 100%;
+  display: grid;
+  gap: 2vw;
+  --item-width: calc(clamp(1rem, 0.8rem + 3vw, 1.5rem) * 5);
+  grid-template-columns: repeat(auto-fill, minmax(var(--item-width), 1fr));
+  place-items: center;
+}
+
+.appliance-list .appliance {
+  cursor: pointer;
+  height: calc(var(--size) * 5);
+  background-color: var(--main-color);
+  width: calc(var(--size) * 5);
+  border-radius: calc(var(--size) * 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.appliance-list .appliance :is(p, h3) {
+  text-align: center;
+  transition: 0.2s;
+}
+
+.appliance-list .appliance.on :is(p, h3) {
+  color: white;
+}
+
+.appliance-list .appliance.off :is(p, h3) {
+  color: black;
+}
+
+.shut-down-all {
+  margin: 1rem 0;
+}
+
+.shut-down-all h3 {
+  color: white;
+  background-color: var(--main-color);
+  width: calc(var(--size) * 10);
+  margin: 0 auto;
+  height: calc(var(--size) * 2);
+  border-radius: calc(var(--size) * 0.2);
+}

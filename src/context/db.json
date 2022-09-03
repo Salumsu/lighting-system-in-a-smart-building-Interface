@@ -1,0 +1,249 @@
+{
+  "Rooms": [
+    {
+      "id": 1,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": false
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": true
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": false
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": false
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": false
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": false
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": true
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "appliances": [
+        {
+          "id": 1,
+          "name": "light Bulb",
+          "state": true
+        },
+        {
+          "id": 2,
+          "name": "Electric fan",
+          "state": false
+        },
+        {
+          "id": 3,
+          "name": "TV",
+          "state": true
+        },
+        {
+          "id": 4,
+          "name": "Washing machine",
+          "state": false
+        }
+      ]
+    }
+  ]
+}
